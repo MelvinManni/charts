@@ -8,8 +8,27 @@ body{
     background-color: rgb(255, 251, 251);
 }
 
+span{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+
+
 .container{
     padding: 10px 20px;
     position: relative;
-    min-height: 400px;
+    min-height: 500px;
+}
+
+.pop2{
+    margin-top: 20px;
+}
+
+@media all and (max-width: 762px){
+    .container{
+        min-height: 400px;
+    }
 }

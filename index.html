@@ -3,13 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Chart</title>
 </head>
 <body>
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">
+         <img src="image/Growth-Chart-Transparent.png" width="50px" alt="">   Chart
+        </span>
+    </nav>
+
 
     <div class="container">
         <canvas id="popChart">
+
+        </canvas>
+    </div>
+
+    <div class="container pop2">
+        <canvas id="pop2">
 
         </canvas>
     </div>
@@ -18,6 +31,7 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
     
+    <script src="https://cdn.jsdelivr.net/gh/emn178/chartjs-plugin-labels/src/chartjs-plugin-labels.js"></script>
 
     <script src="app.js">
         </script>
