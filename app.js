@@ -40,7 +40,7 @@ var myChart = new Chart(chart, {
         }]
     },
     options: {
-        responsive: true,
+        maintainAspectRatio: false,
         title: {
             display: true,
             text: "10 Most Populated States In Nigeria",

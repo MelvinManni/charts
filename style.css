@@ -10,8 +10,6 @@ body{
 
 .container{
     padding: 10px 20px;
-}
-
-#popChart{
-    min-height: 450px;
+    position: relative;
+    min-height: 400px;
 }
