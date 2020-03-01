@@ -115,7 +115,7 @@ var newChart = new Chart(pop2,{
         plugins: {
             labels: {
                 render: "percentage",
-                precision: 2,
+                precision: 1,
                 fontColor: "#000",
                 fontSize: 12,
                 fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
